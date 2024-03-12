@@ -1,0 +1,142 @@
+html {
+  font-family: Oswald, sans-serif;
+  margin: 0;
+  color: #F5F5DC;
+}
+
+
+body{
+  background-color: #082f49;
+  margin: 0px;
+}
+
+/* NAVIGATION */
+li {
+    display: inline;
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+    word-spacing: 10px;
+    font-family: oswald;
+  }
+  nav {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 15px 30px 10px 30px
+  }
+
+  .navigation{
+    padding: 30px 7%;
+  }
+
+  .name {
+    font-family: oswald;
+    padding: 30px 7%;
+  }
+  a {
+    font-weight: normal;
+    color: #F5F5DC;
+    text-decoration: none;
+  }
+
+/* biography section */
+  /* Add this to create a flex container for the image and text */
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Align items to the end (right side) and distribute space evenly */
+}
+
+/* Add this to style the text container */
+.text-container {
+  max-width: 60%; /* Adjust the maximum width of the text container */
+  padding-left: 10px;
+}
+
+/* Adjust the styles as needed */
+.introduction-container {
+  padding-top: 35px;
+}
+
+.headshot {
+  height: 50%;
+  width: 50%;
+  
+}
+
+.title {
+  font-family: 'Oswald', sans-serif;
+  color: #F5F5DC;
+  font-size: 60px;
+  margin-bottom: 40px; /* Adjust as needed */
+  text-align: center;
+}
+
+.summary-title, .skills-title {
+  font-family: 'Oswald', sans-serif;
+  color: #F5F5DC;
+  font-size: 30px;
+}
+
+.skills-title, .skills {
+  text-align: center;
+}
+
+.summary, .skills {
+  color: #F5F5DC;
+  font-family: 'Oswald';
+  text-align: center;
+}
+
+/* Projects */
+.projectstitle {
+  color: #F5F5DC;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-size: 60px;
+  margin-top: 250px; /* Adjust as needed */
+}
+
+.hbcuwebsitebio {
+  position:relative; top: 200px; left: 30px; right: 30px; margin-left:0px; margin-right:0px;
+  color: #F5F5DC;
+  font-size: 20px;
+  font-family: 'Oswald';
+}
+
+
+  /* Projects */
+  .projects-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .projectstitle {
+    align-content: center;
+    color: #F5F5DC;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    margin-top: 100px;
+ }
+
+  .hbcuwebsitebio {
+     color: #F5F5DC;
+    font-size: 20px;
+    font-family: 'Oswald';
+  }
+
+  .personalwebsitetext, .cplustext {
+    padding: 15px 30px 100px 40px
+  }
+
+  .history-container {
+    display: flex;
+
+}
+ .historydate, .historytext {
+  margin: 0;
+  display: inline;
+ }
